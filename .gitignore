@@ -1,0 +1,38 @@
+# Byte-compiled / Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Test coverage
+htmlcov/
+.coverage
+
+# Pytest cache
+.pytest_cache/
+
+# Sphinx build files
+docs/_build/
+docs/generated/
+
+# Logs
+*.log
+gtp_logs
+
+# Models
+model/
+neuralnet/
+*.pt
+*.bin
+*.onnx
+
+# Pyright local config
+pyrightconfig.json
